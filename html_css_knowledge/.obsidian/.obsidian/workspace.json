@@ -1,24 +1,22 @@
 {
   "main": {
-    "id": "91ab22898bfea1f4",
+    "id": "92b5124a98cda481",
     "type": "split",
     "children": [
       {
-        "id": "362b85b4489b1dcf",
+        "id": "3cfe31edfcc6f208",
         "type": "tabs",
         "children": [
           {
-            "id": "8ef2ae258e68eb15",
+            "id": "2f9135961802769f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "Funções CSS.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.9.12"
               },
-              "icon": "lucide-file",
-              "title": "Funções CSS"
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
             }
           }
         ]
@@ -27,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "68d4894aaf8af089",
+    "id": "1561b8fb90147ab1",
     "type": "split",
     "children": [
       {
-        "id": "16bc309e466f5837",
+        "id": "df333cff56d4eac9",
         "type": "tabs",
         "children": [
           {
-            "id": "0809291980becda8",
+            "id": "c234d138d1e84e98",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +46,7 @@
             }
           },
           {
-            "id": "f6100bb351e24833",
+            "id": "b703449bcbc0a5e4",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +63,7 @@
             }
           },
           {
-            "id": "934582aea4c99352",
+            "id": "ce844f4c02086421",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +79,19 @@
     "width": 300
   },
   "right": {
-    "id": "6ed7a0a20717e1ae",
+    "id": "9eb320e422b3d536",
     "type": "split",
     "children": [
       {
-        "id": "575bc6951a10da88",
+        "id": "7fa27dad0e0c70c9",
         "type": "tabs",
         "children": [
           {
-            "id": "6a7be2bc47a77939",
+            "id": "4f5276e1badc29d9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coisas base CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +101,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Coisas base CSS"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "948d8b125f610ac9",
+            "id": "405ff6374cf4fea6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coisas base CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Coisas base CSS"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "274302aa60f391ef",
+            "id": "b60fe5fc539ca2f6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,18 +133,17 @@
             }
           },
           {
-            "id": "9063da3977e1b7d5",
+            "id": "da99f02ed0bfea60",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coisas base CSS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Coisas base CSS"
+              "title": "Outline"
             }
           }
         ]
@@ -169,15 +164,6 @@
       "bases:Create new base": false
     }
   },
-  "active": "8ef2ae258e68eb15",
-  "lastOpenFiles": [
-    "CSS.md",
-    "Funções CSS.md",
-    "Atributos CSS.md",
-    "--- INDEX ---.md",
-    "Coisas base CSS.md",
-    "Coisas base HTML.md",
-    "HTML.md",
-    "Untitled"
-  ]
+  "active": "2f9135961802769f",
+  "lastOpenFiles": []
 }

@@ -1,9 +1,13 @@
-# Dicas 
+# Dicas :
+## Coisas
 - /* texto comentário\*/ : É assim que deixa um comentário no CSS.
+## Medidas : 
+As medidas que existem e como elas funcionam : 
+* px : Se baseia em pixels.
+* vw : Ele ocupa porcentagem da tela, diferente do "%", ele se ajusta com o tamanho do site.
 
 
-
-# Variáveis no CSS
+## Variáveis : 
 Para criar uma variável, você usa "--" , depois o nome da variável, e dois ponto com seu valor.
 EX: --variavel : 35;
 
@@ -17,7 +21,9 @@ background-color : rgb(0,0,var(--variavel))
 Para criar uma variável global, defina ela dentro de um ":root", esse ":root" 
 
 
-# Class, Id etc :
+
+# Mexendo nas Class e Ids : 
+## Como mexer nas Class e Id :
 - Div serve para organizar coisas outras tags para serem mexidos no html.
 
 - Para pegar um ID no CSS, use "#id_name".
@@ -26,17 +32,19 @@ Para criar uma variável global, defina ela dentro de um ":root", esse ":root"
 
 - Se você usar um asterisco "\*", o css vai mexer em todo o arquivo html.
 
-# Medidas  :
-As medidas que existem e como elas funcionam : 
-* px : Se baseia em pixels.
-* vw : Ele ocupa porcentagem da tela, diferente do "%", ele se ajusta com o tamanho do site.
-
-
-# Alinhar os itens dentro de um Class
+## Como alinhar os itens de um class : 
 - Para usar propriedades de alinhar como "align-items" e entre outros, use antes, a propriedade  "display: flex;", e escolha um tipo (como "flex", "grid" etc) para ativar elas.
 
 -  A propriedade "align-algumacoisa", alinha os itens de sua classe VERTICALMENTE.
 
 - A propriedade "justify-algumacoisa", alinha os itens de sua classe HORIZONTALMENTE.
 
-- Se você quiser centralizar um "block", que é uma área demarcada por uma <div>, você pode usar "margin: 0 auto", que vai automaticamente centralizar seu "block" no centro da pagina.
+- Se você quiser centralizar um "block", que é uma área demarcada por uma \<div>, você pode usar "margin: 0 auto", que vai automaticamente centralizar seu "block" no centro da pagina.
+
+
+
+
+
+
+# Animation : 
+Para criar 

@@ -15,10 +15,18 @@ Para chamar ela use "var()", assim retorna o valor dela.
 EX :
 ```css
 .sou_class{
+--variavel : 35;
 background-color : rgb(0,0,var(--variavel))
 }
 ```
-Para criar uma variável global, defina ela dentro de um ":root", esse ":root" 
+
+Para criar uma variável global, defina ela dentro de um ":root", esse ":root" é a base, literalmente é o a tag "\<html>" do arquivo.
+EX : 
+```css
+:root {
+--sou_variavel_global : black
+}
+```
 
 
 

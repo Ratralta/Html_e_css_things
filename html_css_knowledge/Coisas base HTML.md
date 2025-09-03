@@ -131,3 +131,11 @@ O QUE APARECE NO SITE:
 > input type --> Tipo do input  
 > name --> Nome desse input, que serve para identifica-lo, e conseguir pegar seu valor em outros arquivos (caso tenha dado **submit**)
 
+
+
+## Atributos de inputs
+**onblur ="funcao_js()"** ---> Executa o código dentro dele APÓS o usuário tiver clicado em um input , e depois clicar fora dele. 
+
+**onclick = funcao_js()** ---> Executa o código dentro dele APÓS clicar na tag com esse atributo.
+
+

@@ -49,10 +49,5 @@ EX :
 
 - Se você quiser centralizar um "block", que é uma área demarcada por uma \<div>, você pode usar "margin: 0 auto", que vai automaticamente centralizar seu "block" no centro da pagina.
 
-
-
-
-
-
 # Animation : 
 Para criar 

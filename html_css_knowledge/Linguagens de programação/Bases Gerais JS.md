@@ -19,12 +19,49 @@ document.write("O titulo do site é : " + titulo_do_site);
 // document.title PEGA a tag <title>, os dados que ela no caso é somente o que tem escrito nele.
 ```
 
--- O JavaScript ler tags do html.
 ## Criando variáveis 
--- Na hora de criar uma variável, ela pode ter 3 tipos.
-const : Valor constante que nunca muda.
-var : Cria uma variável.
-let : Cria uma variável local.
+### Palavras-chaves da variável :
+-- Na hora de criar uma variável, você **pode** definir 3 palavras-chaves, que são :
+>***CONST*** : Valor constante que nunca muda.
+>EX: 
+```js
+const nome_da_pessoa = "Willian";
+nome_da_pessoa = "Zilian";
+console.log(nome_da_pessoa); // RETORNA : "Willian" --> string 
+```
+
+>***VAR*** : Cria uma variável local, essa variável pode ser redeclarada diversas vezes (Use "let" ao invés desse). 
+>EX:
+```js
+var bixo = "sou texto";
+var bixo = 455;
+console.log(bixo) // RETORNA : 455 --> int
+```
+
+>***LET***: Cria uma variável local, ela não pode ser redeclarada (Recomendado de usar ao invés do "var").
+>EX:
+```js
+let bixo = 455;
+bixo = "sou texto"; 
+console.log(bixo) // RETORNA : "sou texto" --> string
+```
+
+### Características : 
+-- Se você tentar somar uma **string** com um **int/float**, tudo vai aparecer como se fosse string.
+EX: 
+```js 
+let texto = "sou texto";
+let numero = 67;
+console.log(texto+numero) // RETORNA : "sou texto67" --> string 
+```
+
+-- Você pode definir varias variáveis sem colocar seu valor.
+EX: 
+```js
+let var_a,var_b,var_c; // criou essas 3 variaveis.
+var_b = 10; // atribui-o  valor a uma delas.
+console.log(var_b); 
+```
 
 ## Pegando Tags do HTML e lendo no JS : 
 ### Pegando pela ID :
@@ -41,7 +78,10 @@ EX:
     texto_do_html.innerHTML = "lorem ipsolon dolor" // inserindo conteudo para a tag com id "texto"
 </script>
 ```
-
 > \<script> ---> Tag para abrir uma área de código JavaScript.
 > document ---> É o "objeto" da sua pagina html, que contem as suas tags.
+> document.getElementById("texto") ---> Pegando a tag com a id "texto".
 > innerHTML ---> Inserindo conteúdo html para essa tag. 
+
+### Pegando pela Class :
+--- FE

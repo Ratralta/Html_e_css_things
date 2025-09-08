@@ -30,8 +30,17 @@ console.log("O calculo resultou em " + calculo);
 
 
 # ==Entrada de Dados :==
+> **parseInt/parseFloat(valor,Opicional)** --> Ele ler o valor recebido da esquerda para direita, parando quando detecta uma letra E retornando os números lidos como int/float. 
+> EX:
+```js
+let texto = "1000 coisas"
+let texto_int = parseInt(texto) // RETORNA --> 1000 int
+console.log(texto_int);
+console.log("Letra 455"); // RETORNA --> NaN
+```
 
-# Mexer nas variáveis :
+
+# Relacionado a valores de variáveis :
 ## String : 
 > ***texto.charAt(3)*** --> Função ligada a alguma string, RETORNA como string a posição do texto que você colocou no PARÂMETRO. 
 > EX: 
@@ -42,8 +51,6 @@ let texto = "sou um texto";
 	document.write(texto.charAt(i));
 	}
 ```
-
-
 # Coisas legais : 
 ## Data, hora e mês : 
 ------ **Para pegar dados como data , hora e ETC,  da para criar um objeto especial com JS, e usar funções nele.**
@@ -66,3 +73,17 @@ const variavel = window.prompt("qual seu nome?")
 ```
 
 
+
+
+# Coisas Uteis : 
+> ***isNaN(valor)*** --> Função que retorna True ou False CASO o "valor" seja um NaN. 
+> EX: 
+```js
+let variavel = parseInt("lá ele");
+
+if (inNaN) // se for true 
+{
+console.log("Deu erro");
+}
+
+```

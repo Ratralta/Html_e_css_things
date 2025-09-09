@@ -1,6 +1,7 @@
 # Dicas :
 ## Coisas
 - /* texto comentário\*/ : É assim que deixa um comentário no CSS.
+- O html **já vem** com algumas configurações de css.  
 ## Medidas : 
 As medidas que existem e como elas funcionam : 
 * px : Se baseia em pixels.

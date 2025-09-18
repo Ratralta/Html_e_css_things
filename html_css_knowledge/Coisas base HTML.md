@@ -113,7 +113,7 @@ O QUE APARECE NO SITE:
 > option --> Um item que você pode escolher no "select"
 > option value --> O valor que vai retornar no ***submit*** caso esse "option" seja clicado. 
 ### De preencher texto : 
-### Text :
+### De Texto :
 Input que cria uma área de escrever o texto, **retorna no submit o que você escreveu**.
 EX: 
 ESCRITO NO HTML:

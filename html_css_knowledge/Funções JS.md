@@ -79,11 +79,11 @@ const variavel = window.prompt("qual seu nome?")
 > ***isNaN(valor)*** --> Função que retorna True ou False CASO o "valor" seja um NaN. 
 > EX: 
 ```js
-let variavel = parseInt("lá ele");
+let variavel = parseInt("lá ele"); // retorna NaN
 
-if (inNaN) // se for true 
+if (isNaN(variavel)) // se "variavel" for NaN
 {
-console.log("Deu erro");
+console.log("erro")
 }
 
 ```

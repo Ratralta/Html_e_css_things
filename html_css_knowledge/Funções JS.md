@@ -51,7 +51,7 @@ let texto = "sou um texto";
 	document.write(texto.charAt(i));
 	}
 ```
-# Coisas legais : 
+# Funções de Bibliotecas  : 
 ## Data, hora e mês : 
 ------ **Para pegar dados como data , hora e ETC,  da para criar um objeto especial com JS, e usar funções nele.**
 ```js
@@ -72,8 +72,23 @@ document.write(tempo) // isso vai amostrar todas as informações sobre o tempo.
 const variavel = window.prompt("qual seu nome?") 
 ```
 
+## Math :
+------  Possui funções relacionadas a números.
 
+>  ***Math.random***() --> Gera um numero  aleatório , que é real e menor que 1.  
+>  EX:
+```js
+let numero_aleatorio = Math.round(Math.random() * 100); // gera numero aleatorio E arredonda ele.
+console.log(numero_aleatorio); // printa o numero no console
+```
 
+>  ***Math.round***(variavel) --> Arredonda o numero "variavel". 
+>  EX:
+```js
+let numero_aleatorio = Math.round(Math.random() * 100); // gera numero aleatorio E arredonda ele.
+console.log(numero_aleatorio); // printa o numero no console
+```
+```
 
 # Coisas Uteis : 
 > ***isNaN(valor)*** --> Função que retorna True ou False CASO o "valor" seja um NaN. 

@@ -19,7 +19,7 @@ document.write("O titulo do site é : " + titulo_do_site);
 // document.title PEGA a tag <title>, os dados que ela no caso é somente o que tem escrito nele.
 ```
 
-## Criando variáveis 
+## Criando Variáveis 
 ### Palavras-chaves da variável :
 -- Na hora de criar uma variável, você **pode** definir 3 palavras-chaves, que são :
 >***CONST*** : Valor constante que nunca muda.
@@ -62,6 +62,17 @@ let var_a,var_b,var_c; // criou essas 3 variaveis.
 var_b = 10; // atribui-o  valor a uma delas.
 console.log(var_b); 
 ```
+
+## Criando Vetores : 
+### Arrays : 
+Para criar um array, é só usar "new Array(5)" e atribuir em uma variável. 
+EX: 
+```js 
+let meuVetor = new Array(5); 
+console.log("essa array possui " + meuVetor.length + " itens");
+```
+
+
 
 ## Pegando Tags do HTML e lendo no JS : 
 ### Pegando pela ID :

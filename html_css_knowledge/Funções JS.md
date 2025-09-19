@@ -23,14 +23,8 @@ let calculo = 5 * 3;
 console.log("O calculo resultou em " + calculo);
 ```
 
-
-
-
-
-
-
 # ==Entrada de Dados :==
-> **parseInt/parseFloat(valor,Opicional)** --> Ele ler o valor recebido da esquerda para direita, parando quando detecta uma letra E retornando os números lidos como int/float. 
+> **parseInt/parseFloat(valor,Opicional)** --> Ele ler o valor recebido da esquerda para direita, parando quando detecta uma letra, **ele retorna os números lidos como int/float**. 
 > EX:
 ```js
 let texto = "1000 coisas"
@@ -40,9 +34,8 @@ console.log("Letra 455"); // RETORNA --> NaN
 ```
 
 
-# Relacionado a valores de variáveis :
-## String : 
-> ***texto.charAt(3)*** --> Função ligada a alguma string, RETORNA como string a posição do texto que você colocou no PARÂMETRO. 
+# Métodos de variáveis :
+> ***variavel.charAt(3)*** --> Função ligada a alguma string, RETORNA como string a posição do texto que você colocou no PARÂMETRO. 
 > EX: 
 ```js
 let texto = "sou um texto";
@@ -51,6 +44,19 @@ let texto = "sou um texto";
 	document.write(texto.charAt(i));
 	}
 ```
+
+> **variavel.replace(/\[^0-9.]/g,"")** --> Retorna o valor de "variavel" como string, substituindo o que está no primeiro parâmetro da função, pelo o que está no segundo parâmetro da função. 
+> EX: 
+```js
+fruta = "banana";
+fruta = fruta.replace("a","u");
+console.log(fruta); // RETORNA --> bunana
+```
+> O primeiro parâmetro possui algumas palavras chaves, para usa-las use as barras (**//**) ao invés de espaço, as palavras chaves são :  
+> ---- (/x/**g**) --> substitui globalmente a letra dentro das barras ("g" precisa está fora das barras).
+> 
+> ---- (**\[^a-z.]**) && (**\[^0-9.]**)--> substitui **TODOS** que não são entre os valores colocados dentro das barras. No caso o primeiro exemplo tira **todos que não são letras**, o segundo exemplo tira **todos que não são números**.   
+
 # Funções de Bibliotecas  : 
 ## Data, hora e mês : 
 ------ **Para pegar dados como data , hora e ETC,  da para criar um objeto especial com JS, e usar funções nele.**
@@ -88,7 +94,9 @@ console.log(numero_aleatorio); // printa o numero no console
 let numero_aleatorio = Math.round(Math.random() * 100); // gera numero aleatorio E arredonda ele.
 console.log(numero_aleatorio); // printa o numero no console
 ```
-```
+
+> **Math.max(var_1,var_2) && Math.min(var_1,var_2)** --> Math.max retorna o maior número dentro de seu parâmetro,  Math.min retorna o menor valor dentro de seu parâmetro. 
+
 
 # Coisas Uteis : 
 > ***isNaN(valor)*** --> Função que retorna True ou False CASO o "valor" seja um NaN. 
@@ -100,5 +108,4 @@ if (isNaN(variavel)) // se "variavel" for NaN
 {
 console.log("erro")
 }
-
 ```

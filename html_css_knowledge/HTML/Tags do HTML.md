@@ -8,7 +8,7 @@
 * \<i> : Deixa o texto em itálico.
 * \<u> : Deixa o texto sublinhado.
 * \<s> : Deixa o texto riscado. 
-## \<pre> : 
+## \<pre> tag legal :   
 Ele **mantem** a formatação do texto dentro dele, deixando suas quebras de linhas, espaços, etc.
 EX: 
 ```html

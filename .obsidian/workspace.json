@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "html_css_knowledge/--- INDEX ---.md",
+                "file": "html_css_knowledge/CSS/Coisas base CSS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "--- INDEX ---"
+              "title": "Coisas base CSS"
             }
           }
         ]
@@ -170,14 +170,37 @@
       "bases:Create new base": false
     }
   },
-  "active": "b6fbbfcee81709e6",
+  "active": "f80ada8e0485da83",
   "lastOpenFiles": [
-    "README.md",
-    "Untitled.base",
+    "html_css_knowledge/CSS/IMAGENS/Atributo.png",
+    "html_css_knowledge/CSS/IMAGENS/objeto_hrml.png",
+    "html_css_knowledge/CSS/IMAGENS/objeto_hrml - Copia.png",
+    "html_css_knowledge/CSS/Coisas base CSS.md",
+    "html_css_knowledge/CSS/CSS.md",
+    "html_css_knowledge/CSS/Atributos CSS.md",
+    "html_css_knowledge/CSS/IMAGENS",
+    "html_css_knowledge/CSS/Nova pasta",
     "html_css_knowledge/--- INDEX ---.md",
-    "html_css_knowledge/Coisas base CSS.md",
+    "html_css_knowledge/HTML/HTML.md",
+    "html_css_knowledge/Linguagens de programação/JavaScript.md",
+    "html_css_knowledge/Linguagens de programação/Linguagens de Programação.md",
+    "html_css_knowledge/Linguagens de programação/Funções JS.md",
+    "html_css_knowledge/HTML/Tags do HTML.md",
+    "html_css_knowledge/HTML/Coisas base HTML.md",
+    "html_css_knowledge/HTML",
+    "html_css_knowledge/Nova pasta",
+    "html_css_knowledge/Atributos CSS.md",
+    "html_css_knowledge/CSS/Funções CSS.md",
+    "html_css_knowledge/CSS",
     "html_css_knowledge/CSS.md",
+    "html_css_knowledge/Coisas base CSS.md",
+    "html_css_knowledge/Coisas base HTML.md",
     "html_css_knowledge/HTML.md",
-    "html_css_knowledge/Atributos CSS.md"
+    "html_css_knowledge/Funções CSS.md",
+    "html_css_knowledge/Tags do HTML.md",
+    "html_css_knowledge/Linguagens de programação/Bases Gerais JS.md",
+    "html_css_knowledge/Funções JS.md",
+    "README.md",
+    "Untitled.base"
   ]
 }

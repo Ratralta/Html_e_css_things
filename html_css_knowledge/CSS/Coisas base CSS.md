@@ -29,8 +29,14 @@ EX :
 }
 ```
 
-
-
+## Objeto html : 
+* ***Objeto html*** é um termo que eu **inventei**, ele se refere a quando você mexe em alguma tag/class/id do html **no css**.
+* EXEMPLO: 
+![[objeto_hrml.png]]
+## Atributo : 
+* ***A*tributo*** é um termo que eu **inventei**, ele se refere aos atributos que você coloca em um ***objeto html***. 
+* EXEMPLO : 
+![[Atributo.png]]
 # Mexendo nas Class e Ids : 
 ## Como mexer nas Class e Id :
 - Div serve para organizar coisas outras tags para serem mexidos no html.
@@ -50,5 +56,10 @@ EX :
 
 - Se você quiser centralizar um "block", que é uma área demarcada por uma \<div>, você pode usar "margin: 0 auto", que vai automaticamente centralizar seu "block" no centro da pagina.
 
+* A propriedade "margin-algumacoisa", mexe o item em **alguma direção em pixels** (ou outras medidas)  
+
 # Animation : 
-Para criar 
+## TAG\:hover : 
+* Quando você citar um objeto do html, e colocar ":hover", as alterações do css SOMENTE serão aplicadas quando o mouse passa por cima do objeto html.  
+
+

@@ -29,6 +29,7 @@ EX :
 }
 ```
 
+
 ## Objeto html : 
 * ***Objeto html*** é um termo que eu **inventei**, ele se refere a quando você mexe em alguma tag/class/id do html **no css**.
 * EXEMPLO: 
@@ -60,6 +61,6 @@ EX :
 
 # Animation : 
 ## TAG\:hover : 
-* Quando você citar um objeto do html, e colocar ":hover", as alterações do css SOMENTE serão aplicadas quando o mouse passa por cima do objeto html.  
+* Quando você citar um objeto do html, e colocar ":hover", as alterações do css SOMENTE serão aplicadas quando o usuário passa o mouse passa por cima do objeto html.  
 
 

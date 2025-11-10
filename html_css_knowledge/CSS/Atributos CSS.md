@@ -18,6 +18,6 @@
 
 
 # Fazendo animação :
-*  transition : 0.7s --> Aplica as alterações do objeto html no tempo colocado. 
+*  transition : 0.7s --> Aplica as alterações do ***objeto html*** no tempo desejado. 
 # Coisas : 
 *  cursor: pointer -- > Muda a aparência do mouse do usuário, se o mouse estiver encostado em sua "class".

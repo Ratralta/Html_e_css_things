@@ -20,6 +20,6 @@ EX:
 </pre>
 ```
 
-# Outras tags
+# Outras tags :
 
 

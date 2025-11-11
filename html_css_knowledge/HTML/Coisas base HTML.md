@@ -45,7 +45,7 @@ ESCRITO NO HTML :
 ****
 ```html
 <p> Qual sua comida favorita ? </p>
-<input type="radio" name="comida" value="lasanha"> Lasanha </input>
+<input type="radio" name="comida" value="lasanha" checked> Lasanha </input>
 <input type="radio" name="comida" value="wingslompson"> Wingslompson</input>
 <input type="radio" name="comida" value="tapioca"> Tapioca </input>
 ```
@@ -53,7 +53,7 @@ ESCRITO NO HTML :
 APARECE NO SITE :
 ****
 <p> Qual sua comida favorita ? </p>
-<input type="radio" name="comida" value="lasanha"> Lasanha 
+<input type="radio" name="comida" value="lasanha" checked> Lasanha 
 <input type="radio" name="comida" value="wingslompson"> Wingslompson
 <input type="radio" name="comida" value="tapioca"> Tapioca 
 ****

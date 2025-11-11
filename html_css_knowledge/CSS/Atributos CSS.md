@@ -9,7 +9,9 @@
 *  border-bottom: solid 5px black -- > Coloca uma linha com uma cor, no lugar baseado no nome da Propriedade (bottom,left,right,top)
 
 ## Conteúdo da Div :
-* **overflow: hidden** --> Mexe no conteúdo que estiver fora do seu pai. ("hidden" esconde o conteúdo)
+* **overflow: hidden** --> Mexe no conteúdo que estiver fora do seu pai. 
+	* "hidden" esconde o conteúdo.
+	* "scroll" cria uma área de scroll para ver o conteúdo.
 # Mexendo no texto : 
 * font: bold 1.0rem serif -- > Mexe no tamanho da fonte do texto.
 

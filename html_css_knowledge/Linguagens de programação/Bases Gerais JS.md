@@ -9,6 +9,8 @@
 *  Para adicionar um código javascript no html, você pode usar a tag "\<script>", e usar a propriedade 'src="pasta/arquivo.js"', assim você "importa" o código.
 EX: \<script src="pasta/arquivo.js">\</script>
 
+* É possível criar objetos no javascript SEM precisar de um CLASS. 
+
 * Para pegar uma variável dentro de um bloco de string, use " `${variavel}`.
 
 * Quando você usa  \`\` ,  tudo dentro dele funciona como uma string.
@@ -20,6 +22,7 @@ let titulo_do_site = document.title;
 document.write("O titulo do site é : " + titulo_do_site);
 // document.title PEGA a tag <title>, os dados que ela no caso é somente o que tem escrito nele.
 ```
+
 
 ## Criando Variáveis 
 ### Palavras-chaves da variável :
@@ -75,6 +78,33 @@ console.log("essa array possui " + meuVetor.length + " itens");
 ```
 
 
+
+## Class :
+### Criando Class :
+* Para criar um class, é possível seguir uma logica similar ao do **C#**, aonde você usa uma palavra chave let/var, define o nome e iguala ela a uma class do nome que você deu a ela. Como no exemplo : 
+~~~js
+ let Retangulo = class Retangulo
+{
+	altura = 9;
+    largura = 15;
+};
+~~~
+
+* Para usar constructor é desse jeito : 
+~~~js
+let Retangulo = class Retangulo 
+{
+	constructor(altura, largura) 
+	{
+	this.altura = altura;
+	this.largura = largura;
+	}  
+};
+~~~
+
+### Palavras chaves duma Class : 
+#### Static : 
+* Colocada em funções duma classe, ela é igual ao static de **C#**, permite com que uma função possa ser chamada SEM PRECISAR instanciar um objeto a class. 
 
 ## Pegando Tags do HTML e lendo no JS : 
 ### Pegando pela ID :

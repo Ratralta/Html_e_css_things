@@ -134,10 +134,10 @@ O QUE APARECE NO SITE:
 
 
 ## Atributos de inputs
-**onblur ="funcao_js()"** ---> Executa o código dentro dele APÓS o usuário tiver clicado em um input , e depois clicar fora dele. 
+* **onblur ="funcao_js()"** ---> Executa o código dentro dele APÓS o usuário tiver clicado em um input , e depois clicar fora dele. 
 
-**onclick = funcao_js()** ---> Executa o código dentro dele APÓS clicar na tag com esse atributo.
+* **onclick = funcao_js()** ---> Executa o código dentro dele APÓS clicar na tag com esse atributo.
 
-
+* **required** ---> Faz o input com esse atributo seja obrigatório ser preenchido para dar "submit".
 
 

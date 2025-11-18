@@ -106,8 +106,8 @@ let Retangulo = class Retangulo
 #### Static : 
 * Colocada em funções duma classe, ela é igual ao static de **C#**, permite com que uma função possa ser chamada SEM PRECISAR instanciar um objeto a class. 
 
-## Pegando Tags do HTML e lendo no JS : 
-### Pegando pela ID :
+# Pegando Tags do HTML e lendo no JS : 
+## Pegando pela ID :
 --- Para pegar uma tag pelo atributo "ID" dela, com o objeto "document", use a função  "getElementById()" e coloque no parâmetro entre aspas a "ID" da tag que você quer. 
 EX:
 ```html
@@ -126,5 +126,42 @@ EX:
 > document.getElementById("texto") ---> Pegando a tag com a id "texto".
 > innerHTML ---> Inserindo conteúdo html para essa tag. 
 
-### Pegando pela Class :
+## Pegando pela Class :
 --- FE
+
+## Pegando através de um FORM : 
+* No seu form, você vai precisar :
+	* Definir um atributo "methed", que a maneira que ele vai mandar o form (GET ou POST).
+	* Aonde ele vai mandar o form, através do atributo "**action = "arquivo.html"**".
+	* Somente os inputs com o atributo "name", serão guardados no form.
+	* EX :  
+	 ```html
+	  <!DOCTYPE html>
+		<html>
+			<form action="home.html" method="GET">
+				<input type ="text" name="user_nome">
+				<input type ="passowrd" name="user_senha">
+			</form>
+		</html>
+	  ```
+
+* Agora, no seu JavaScript, uma maneira de pegar os dados enviados ao seu arquivo html (muito parecido com o PHP), é usando o objeto especial **"URLSearchParams(window.location.search)"** ele permite retornar como um objeto, **o formulário que foi enviado ao seu html**. Para retornar as informações desse objeto do formulário, você usa ".get" ou ".post".  
+
+* EX: 
+```html 
+<!-- ARQUIVO "home.html" -->
+<html>
+
+<h1 id="retorno"></h1> 
+
+<script>
+const form_objeto = new URLSearchParams(window.location.search) 
+// "URLSearchParams(window.location.search)" retorna como objeto o form recebido. 
+// "form_objeto" é um objeto que possui os dados do form recebido.
+
+let nome_do_user = form.get("user_nome"); // retorna valor de "user_nome"
+let senha_do_user = form.get("user_senha"); // retorna valor de "user_senha"
+document.getElementById("retorno").innerHTML = nome_do_user + "<br>" + senha_do_user
+</script>
+</html>
+```

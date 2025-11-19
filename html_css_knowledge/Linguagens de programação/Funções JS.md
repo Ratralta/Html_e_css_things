@@ -34,7 +34,8 @@ console.log("Letra 455"); // RETORNA --> NaN
 ```
 
 
-# Métodos de variáveis :
+# Métodos dos Objetos :
+## VARIÁVEL  : 
 > ***variavel.charAt(3)*** --> Função ligada a alguma string, RETORNA como string a posição do texto que você colocou no PARÂMETRO. 
 > EX: 
 ```js
@@ -45,7 +46,7 @@ let texto = "sou um texto";
 	}
 ```
 
-> **variavel.replace(/\[^0-9.]/g,"")** --> Retorna o valor de "variavel" como string, substituindo o que está no primeiro parâmetro da função, pelo o que está no segundo parâmetro da função. 
+> **variavel.replace(/\[^0-9.]/g,"")** --> Retorna o valor de "variavel", substituindo o que está no primeiro parâmetro da função, pelo o que está no segundo parâmetro da função. 
 > EX: 
 ```js
 fruta = "banana";
@@ -56,6 +57,12 @@ console.log(fruta); // RETORNA --> bunana
 > ---- (/x/**g**) --> substitui globalmente a letra dentro das barras ("g" precisa está fora das barras).
 > 
 > ---- (**\[^a-z.]**) && (**\[^0-9.]**)--> substitui **TODOS** que não são entre os valores colocados dentro das barras. No caso o primeiro exemplo tira **todos que não são letras**, o segundo exemplo tira **todos que não são números**.   
+
+## window : 
+### window.location : 
+* **window.location.assign("arquivo.html"**) --> Direciona o usuário para outro arquivo.
+
+* **window.location.replace("arquivo.html")** --> Direciona o usuário para outro arquivo, sem permitir que ele volte para o arquivo em que estava antes. 
 
 # Funções de Bibliotecas  : 
 ## Data, hora e mês : 

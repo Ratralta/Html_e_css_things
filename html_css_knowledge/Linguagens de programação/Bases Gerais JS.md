@@ -8,6 +8,7 @@
 
 *  Para adicionar um código javascript no html, você pode usar a tag "\<script>", e usar a propriedade 'src="pasta/arquivo.js"', assim você "importa" o código.
 EX: \<script src="pasta/arquivo.js">\</script>
+Com a propriedade **"defer"** na tag \<script> , o código só será lido quando todo o arquivo html for carregado    
 
 * É possível criar objetos no javascript SEM precisar de um CLASS. 
 
@@ -139,6 +140,8 @@ EX:
 	  <!DOCTYPE html>
 		<html>
 			<form action="home.html" method="GET">
+				<!-- vai mandar o form para "home.html -->
+				<!-- o form sera mandado no metodo "GET" -->
 				<input type ="text" name="user_nome">
 				<input type ="passowrd" name="user_senha">
 			</form>

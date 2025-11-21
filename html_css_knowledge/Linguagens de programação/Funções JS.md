@@ -36,28 +36,35 @@ console.log("Letra 455"); // RETORNA --> NaN
 
 # Métodos dos Objetos :
 ## VARIÁVEL  : 
-> ***variavel.charAt(3)*** --> Função ligada a alguma string, RETORNA como string a posição do texto que você colocou no PARÂMETRO. 
-> EX: 
-```js
-let texto = "sou um texto";
-	for(var i=0;i<texto.lenght;i++)
-	{
-	document.write(texto.charAt(i));
-	}
-```
+* ***variavel.charAt(3)*** --> Função ligada a alguma string, RETORNA como string a posição do texto que você colocou no PARÂMETRO. 
+	EX: 
+	```js
+	let texto = "sou um texto";
+		for(var i=0;i<texto.lenght;i++)
+		{
+		document.write(texto.charAt(i));
+		}
+	```
 
-> **variavel.replace(/\[^0-9.]/g,"")** --> Retorna o valor de "variavel", substituindo o que está no primeiro parâmetro da função, pelo o que está no segundo parâmetro da função. 
-> EX: 
-```js
-fruta = "banana";
-fruta = fruta.replace("a","u");
-console.log(fruta); // RETORNA --> bunana
-```
-> O primeiro parâmetro possui algumas palavras chaves, para usa-las use as barras (**//**) ao invés de espaço, as palavras chaves são :  
-> ---- (/x/**g**) --> substitui globalmente a letra dentro das barras ("g" precisa está fora das barras).
-> 
-> ---- (**\[^a-z.]**) && (**\[^0-9.]**)--> substitui **TODOS** que não são entre os valores colocados dentro das barras. No caso o primeiro exemplo tira **todos que não são letras**, o segundo exemplo tira **todos que não são números**.   
+* **variavel.replace(/\[^0-9.]/g,"")** --> Retorna o valor de "variavel", substituindo o que está no primeiro parâmetro da função, pelo o que está no segundo parâmetro da função.  
+	 O primeiro parâmetro possui algumas palavras chaves, para usa-las use as barras (**//**) ao invés de espaço, as palavras chaves são :  
+	 ---- (/x/**g**) --> substitui globalmente a letra dentro das barras ("g" precisa está fora das barras).
+	 
+	 ---- (**\[^a-z.]**) && (**\[^0-9.]**)--> substitui **TODOS** que não são entre os valores colocados dentro das barras. No caso o primeiro exemplo tira **todos que não são letras**, o segundo exemplo tira **todos que não são números**. 
+	 EX: 
+	```js
+	fruta = "banana";
+	fruta = fruta.replace("a","u");
+	console.log(fruta); // RETORNA --> bunana
+	```
 
+* variavel.split(" ") --> Retorna uma variável de **texto** numa **array**, usando como critério de separação o que você colocou no parâmetro (entre aspas), pode receber um segundo parâmetro , ele que faz com que a array retornada tenha a quantidade de itens colocado nele.
+	EX: 
+	```js
+	let nome = "Ronaldo Felipe Jr"
+	let nome_array = nome.split(" ") // critério de separação é o espaço (" ")
+	console.log(nome_array) // printou a array "nome_array"
+	```
 ## window : 
 ### window.location : 
 * **window.location.assign("arquivo.html"**) --> Direciona o usuário para outro arquivo.

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens de programação/Funções JS.md",
+                "file": "Linguagens de programação/Bases Gerais JS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Funções JS"
+              "title": "Bases Gerais JS"
             }
           }
         ]
@@ -172,10 +172,10 @@
   "active": "baf11db43daf693f",
   "lastOpenFiles": [
     "Linguagens de programação/JavaScript.md",
-    "Linguagens de programação/Bases Gerais JS.md",
     "Linguagens de programação/Linguagens de Programação.md",
-    "--- INDEX ---.md",
+    "Linguagens de programação/Bases Gerais JS.md",
     "Linguagens de programação/Funções JS.md",
+    "--- INDEX ---.md",
     "HTML/Coisas base HTML.md",
     "HTML/HTML.md",
     "HTML.md",

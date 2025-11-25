@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens de programação/Bases Gerais JS.md",
+                "file": "Linguagens de programação/MySQL/Funções MySQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bases Gerais JS"
+              "title": "Funções MySQL"
             }
           }
         ]
@@ -171,12 +171,31 @@
   },
   "active": "baf11db43daf693f",
   "lastOpenFiles": [
-    "Linguagens de programação/JavaScript.md",
+    "Linguagens de programação/MySQL/Bases Gerais MySQL.md",
+    "Linguagens de programação/MySQL/coisas/MySQL_organizacao_do_database.md",
+    "Linguagens de programação/MySQL/IMAGENS/organização_do_database.png",
+    "Linguagens de programação/MySQL/coisas/MySQL_workbank.md",
     "Linguagens de programação/Linguagens de Programação.md",
-    "Linguagens de programação/Bases Gerais JS.md",
-    "Linguagens de programação/Funções JS.md",
+    "Linguagens de programação/MySQL/Funções MySQL.md",
+    "Linguagens de programação/MySQL/coisas/MySQL_phpMyAdmin.md",
+    "Linguagens de programação/MySQL/IMAGENS/workbank.png",
+    "Linguagens de programação/MySQL/IMAGENS/phpMyAdmin - Copia.png",
+    "Linguagens de programação/MySQL/IMAGENS/phpMyAdmin.png",
     "--- INDEX ---.md",
+    "Linguagens de programação/MySQL/coisas",
+    "Linguagens de programação/MySQL/IMAGENS",
+    "Linguagens de programação/JavaScript/Bases Gerais JS.md",
+    "Linguagens de programação/MySQL",
+    "Linguagens de programação/JavaScript/coisas/js_URLSearchParams.md",
+    "HTML/coisas/html_query_string.md",
+    "Linguagens de programação/JavaScript/coisas",
+    "Linguagens de programação/JavaScript/JavaScript.md",
+    "Linguagens de programação/JavaScript/Funções JS.md",
+    "Linguagens de programação/JavaScript",
     "HTML/Coisas base HTML.md",
+    "html_query_string.md",
+    "HTML/Tags do HTML.md",
+    "HTML/coisas",
     "HTML/HTML.md",
     "HTML.md",
     "Funções JS.md",

@@ -163,14 +163,14 @@ const form_objeto = new URLSearchParams(window.location.search)
 // "URLSearchParams(window.location.search)" retorna como objeto o form recebido. 
 // "form_objeto" é um objeto que possui os dados do form recebido.
 
-let nome_do_user = form.get("user_nome"); // retorna valor de "user_nome"
-let senha_do_user = form.get("user_senha"); // retorna valor de "user_senha"
+let nome_do_user = form_objeto.get("user_nome"); // retorna valor de "user_nome"
+let senha_do_user = form_objeto.get("user_senha"); // retorna valor de "user_senha"
 document.getElementById("retorno").innerHTML = nome_do_user + "<br>" + senha_do_user
 </script>
 </html>
 ```
 # Armazenando dados : 
-## localStorage : 
+## window.localStorage : 
 * [LINK DE EXPLICAÇÃO](https://www.youtube.com/watch?v=rCnC-yfZprM)
 ### Informações : 
 * As informações do localStorage ficam salvas no browser do usuário, significa que mesmo que o usuário saia, as informações ainda serão guardadas. 

@@ -8,7 +8,7 @@
 
 -  Lembre de no input, colocar uma "ID", pois com ela é possível pegar seu valor e retorna-lo para ser usado alguma linguagem de programação.
 
-* Com o atributo "onClick ="funcao()" ", você chama uma função existente do [javascript](JavaScript).
+* Com o atributo "onClick ="funcao()" ", você chama uma função existente do [javascript](JavaScript.md).
 
 
 
@@ -35,7 +35,6 @@ EX O QUE APARECE NO SITE :
 	<input type="text" name="nome_do_usuario"> 
 	<input type="submit"> 
 </form>
-
 ## Tipos de input :
 ### De escolha : 
 #### Radio 
@@ -141,3 +140,28 @@ O QUE APARECE NO SITE:
 * **required** ---> Faz o input com esse atributo seja obrigatório ser preenchido para dar "submit".
 
 
+
+# HTPP : 
+* [LINK SOBRE GET,FORM E HTPP](https://www.alura.com.br/artigos/diferencas-entre-get-e-post?utm_term=&utm_campaign=&utm_source=google&utm_medium=cpc&campaign_id=23211518344__&utm_id=23211518344__&hsa_acc=7964138385&hsa_cam=&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=google&hsa_ver=3&gad_source=1&gad_campaignid=23211519973&gbraid=0AAAAADpqZIBwpm62DOpA_jHWnEoP5jtT3&gclid=CjwKCAiA24XJBhBXEiwAXElO39ECAdipzvOW1wOMK8xJz92bvO8QcWNabCA3Jnh7pGN1x37jsPWMgRoCNYgQAvD_BwE)
+## O que é : 
+* Quando você está usando algum site, constantemente acontece uma conversa entre o navegador do usuário e o servidor. 
+* O que conduz essa conversa entre ambos é o HTPP.
+* Ele possui 2 métodos principais, o **GET**, e o **POST**. 
+
+## Método GET : 
+* O método(função) get é usado pelo navegador do usuário, ele **solicita** ou **recupera dados** do servidor, é possível também com o get acionar funções do servidor, porem requer certas maracutaias.
+* Tudo que o navegador pede para o servidor (através do método GET) é mostrado na URL do navegador, é chamado de [query string](html_query_string)
+* As informações amostradas no URL do navegador seguem está sintaxe :
+	* variavel=valor&outra_variavel=outro_valor
+* EX : 
+	* No Google, quando você pesquisa alguma coisa, você está preenchendo um formulário, quando você envia você faz um "commit".
+	* Ao enviar, seu navegador através do GET pede ao servidor o dado da sua pesquisa, isso pode ser provado assim : 
+		* URL da pesquisa : https://www.google.com/search?q=gato&rlz=1C1GCEA_enBR1131BR1131&oq=gato&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyCggBEC4YsQMYgAQyEAgCEC4YxwEYsQMY0QMYgAQyCggDEC4YsQMYgAQyDQgEEC4Y1AIYsQMYgAQyDQgFEC4Y1AIYsQMYgAQyCggGEAAYsQMYgAQyCggHEC4YsQMYgAQyCggIEC4YsQMYgAQyCggJEAAYsQMYgATSAQk3NDMyajBqMTWoAgCwAgA&sourceid=chrome&ie=UTF-8
+		* "https://www.google.com" é o endereço do servidor.
+		* "search?" é uma função do servidor
+		* "q=gato" é uma variável, que nesse caso, é um parâmetro da função "search?"
+		* O resto são outras variáveis.
+
+## Método POST : 
+* O método(função) get é usado pelo navegador do usuário, ele **solicita** ou **recupera dados** do servidor, é possível também com o get acionar funções do servidor, porem requer certas maracutaias.
+* O método(função) post é usado pelo navegador do usuário, ele envia

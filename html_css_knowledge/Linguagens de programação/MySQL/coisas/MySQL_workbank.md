@@ -1,0 +1,3 @@
+# O QUE É :
+* É a área onde você pode digitar códigos no MySQL, permitindo você criar bancos de dados, alterar, configurar e ETC. 
+![[workbank.png]]

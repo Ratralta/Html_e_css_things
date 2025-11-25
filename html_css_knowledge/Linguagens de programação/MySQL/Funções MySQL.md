@@ -5,9 +5,12 @@
 ## Apagar um banco de dados : 
 * **DROP DATABASE nome_do_banco** --> Deleta um banco de dados. 
 
-# Comandos de Ação : 
-* CREATE  : Cria alguma coisa 
-* DROP : Serve para deletar alguma coisa 
+# Querys de Ação : 
+* CREATE  : Cria alguma coisa.
+* DROP : Serve para deletar alguma coisa. 
+* ALTER : Serve para alterar alguma coisa.
 
-# Comandos de Especificação : 
+# Querys de Especificação : 
 * DATABASE : Especifica um banco de dados. 
+* TABLE : Especifica uma tabela. 
+

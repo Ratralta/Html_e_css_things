@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens de programação/MySQL/Funções MySQL.md",
+                "file": "Linguagens de programação/MySQL/Bases Gerais MySQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Funções MySQL"
+              "title": "Bases Gerais MySQL"
             }
           }
         ]
@@ -171,16 +171,17 @@
   },
   "active": "baf11db43daf693f",
   "lastOpenFiles": [
-    "Linguagens de programação/MySQL/Bases Gerais MySQL.md",
     "Linguagens de programação/MySQL/coisas/MySQL_organizacao_do_database.md",
-    "Linguagens de programação/MySQL/IMAGENS/organização_do_database.png",
-    "Linguagens de programação/MySQL/coisas/MySQL_workbank.md",
-    "Linguagens de programação/Linguagens de Programação.md",
+    "Linguagens de programação/MySQL/Bases Gerais MySQL.md",
     "Linguagens de programação/MySQL/Funções MySQL.md",
+    "Linguagens de programação/MySQL/coisas/MySQL_workbank.md",
+    "Linguagens de programação/MySQL/coisas/MySQL_usando_banco.md",
     "Linguagens de programação/MySQL/coisas/MySQL_phpMyAdmin.md",
+    "Linguagens de programação/MySQL/IMAGENS/organização_do_database.png",
+    "Linguagens de programação/Linguagens de Programação.md",
+    "Linguagens de programação/MySQL/IMAGENS/phpMyAdmin.png",
     "Linguagens de programação/MySQL/IMAGENS/workbank.png",
     "Linguagens de programação/MySQL/IMAGENS/phpMyAdmin - Copia.png",
-    "Linguagens de programação/MySQL/IMAGENS/phpMyAdmin.png",
     "--- INDEX ---.md",
     "Linguagens de programação/MySQL/coisas",
     "Linguagens de programação/MySQL/IMAGENS",

@@ -247,3 +247,8 @@ document.getElementById("retorno").innerHTML = nome_do_user + "<br>" + senha_do_
 	const objeto = JSON.parse(string_pessoa); // transformando em um objeto
 	console.log("Ola, meu nome é " + objeto.nome)
 	```
+
+
+# Outras coisas : 
+## [ -- Utilizando Banco de Dados --](js_Utilizando_Data_Base)
+

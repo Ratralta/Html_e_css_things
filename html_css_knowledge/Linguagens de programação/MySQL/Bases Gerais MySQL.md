@@ -16,6 +16,8 @@
 * Quando for manipular em um banco de dados através do [workbank](MySQL_workbank), utilize o comando **"USE nome_do_banco"**, para avisar ao MySQL qual data base você deseja manipular.  
 * Para comentar, use "-- --".
 * [LINK PARA REVER TUDO.](https://youtu.be/XQkf-6Yl3WM?si=_I158NcIfEchQ-m0)
+* Para acessar o painel do MySQL, acesse "http://localhost/phpmyadmin/".
+
 # Manipulação de um Banco de Dados Básica : 
 ## Criar/Deletar Data Base 
 ### Criar :
@@ -76,25 +78,79 @@ ALTER TABLE sabores DROP COLUMN peperoni;
 -- "peperoni" é uma coluna que existe na table "sabores"
 ```
 
-
-
-
-## CRUD :
+### Alterar valor de uma coluna : 
+* Para alterar o valor de uma coluna é diferente, sendo : 
+```MySQL
+UPDATE tabela SET coluna = novo_valor;
+```
+*  Com "WHERE", é possível adicionar condições para a troca do valor, como : 
+```SQL
+/*
+tabela : 
+coluna = null id = 1
+coluna = null id = 2
+coluna = null id = 3
+*/
+UPDATE tabela SET coluna = "67" WHERE id = 1;
+```
+## **CRUD** :
 ### O que é :
-* São recursos para a manipulação de uma [tabela](MySQL_organizacao_do_database)
+* São recursos para a manipulação de uma [tabela](MySQL_organizacao_do_database).
 * É dividido em 4 operações, onde cada uma significa :
 	* C = Create --> INSERT
 	* R = Read --> SELECT
-	* U = Update --> 
+	* U = Update --> UPDATE
 	* D = Delete
 ### INSERT :
-* No CRUD, ele insere **valores** nas colunas de uma table.
+* No CRUD, ele cria um [item](MySQL_item), inserindo valor em cada uma das "colunas".
 * EX:
 ```MySQL
 -- Tabela "pessoas" possui as colunas : "nome", "idade" e "profissao"
 INSERT INTO pessoas(nome,idade,profissao)
 VALUES("ronaldo",19,"programador");
 ```
+
+### SELECT (WHERE):
+* No CRUD, ele serve para retorna dados do banco de dados. 
+* Pode retornar os valores de uma [coluna especifica](MySQL_colunas_especificaveis) duma tabela e também pode **condicionar um valor para ser retornado** de alguma coluna (através do WHERE).
+* EX:
+```MySQL
+SELECT * FROM tabela; 
+-- Mostra no "workbank" as colunas de "tabela"
+```
+
+```MySQL
+SELECT * FROM tabela WHERE id = 1;
+-- Mostra no "workbank" somente o "item" de id 1
+```
+### UPDATE :
+* No CRUD, ele serve para mudar valores de um [itens](MySQL_item), também consegue mudar o valor duma coluna.
+* EX: 
+```MySQL
+UPDATE tabela SET coluna = new_valor 
+-- todos os itens teve seu valor "coluna" igualado a "new_valor"
+```
+*  Com "WHERE", é possível adicionar condições para a troca do valor, como : 
+```MySQL
+/*
+tabela : 
+coluna = null id = 1
+coluna = null id = 2
+coluna = null id = 3 */
+UPDATE tabela SET coluna = "67" WHERE id = 1;
+/* agora está assim :
+coluna = 67 id = 1
+coluna = null id = 2
+coluna = null id = 3 */
+```
+### DELETE : 
+* No CRUD, deleta um [item](MySQL_item) ou uma [coluna](MySQL_organizacao_do_database). 
+* EX:
+```SQL
+DELETE FROM tabela WHERE id = 2;
+-- deleta o item da table "tabela" que possui a "id" igual a "2"
+```
+
 
 # Tipos de Dados :
 ## Texto : 
@@ -112,5 +168,5 @@ VALUES("ronaldo",19,"programador");
 	* São o ano, mês , dia , hora , minuto , segundos. 
 * DATE :
 	* Consegue informações sobre o dia.
-	* São ano, mês e dia
+	* A ordem é : ano, mês e dia
 

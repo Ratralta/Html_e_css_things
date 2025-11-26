@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "html_css_knowledge/Linguagens de programação/Bases Gerais JS.md",
+                "file": "html_css_knowledge/Linguagens de programação/PHP/Bases Gerais PHP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bases Gerais JS"
+              "title": "Bases Gerais PHP"
             }
           }
         ]
@@ -172,14 +172,30 @@
   },
   "active": "f80ada8e0485da83",
   "lastOpenFiles": [
-    "html_css_knowledge/Linguagens de programação/Funções JS.md",
+    "html_css_knowledge/HTML/coisas/html_servidor_web.md",
+    "html_css_knowledge/Linguagens de programação/PHP/Bases Gerais PHP.md",
+    "html_css_knowledge/Linguagens de programação/PHP/Funções PHP.md",
+    "html_css_knowledge/Linguagens de programação/JavaScript/JavaScript.md",
+    "html_css_knowledge/Linguagens de programação/JavaScript/Funções JS.md",
+    "html_css_knowledge/EXTRAS/XAMPP.md",
+    "html_css_knowledge/Linguagens de programação/MySQL/Bases Gerais MySQL.md",
+    "html_css_knowledge/Linguagens de programação/MySQL/MySQL.md",
+    "html_css_knowledge/EXTRAS",
+    "html_css_knowledge/HTML/coisas/html_diferenca_entre_pagina_web_site_servidor_web_e_mecanismo_de_busca.md",
     "html_css_knowledge/HTML/Coisas base HTML.md",
+    "().md",
     "html_css_knowledge/HTML/HTML.md",
-    "html_css_knowledge/HTML/Tags do HTML.md",
+    "html_css_knowledge/Linguagens de programação/JavaScript/Bases Gerais JS.md",
+    "html_css_knowledge/Linguagens de programação/PHP/PHP.md",
+    "html_css_knowledge/Linguagens de programação/JavaScript/coisas/js_npm.md",
+    "html_css_knowledge/Linguagens de programação/PHP/coisas",
+    "html_css_knowledge/Linguagens de programação/PHP",
+    "html_css_knowledge/Linguagens de programação/Linguagens de Programação.md",
     "html_css_knowledge/--- INDEX ---.md",
+    "html_css_knowledge/Linguagens de programação/Funções JS.md",
+    "html_css_knowledge/HTML/Tags do HTML.md",
     "html_css_knowledge/Linguagens de programação/Bases Gerais JS.md",
     "html_css_knowledge/Linguagens de programação/JavaScript.md",
-    "html_css_knowledge/Linguagens de programação/Linguagens de Programação.md",
     "html_css_knowledge/CSS/Atributos CSS.md",
     "html_css_knowledge/CSS/CSS.md",
     "html_css_knowledge/CSS/Coisas base CSS.md",
@@ -191,16 +207,7 @@
     "html_css_knowledge/HTML",
     "html_css_knowledge/Nova pasta",
     "html_css_knowledge/Atributos CSS.md",
-    "html_css_knowledge/CSS/Funções CSS.md",
     "html_css_knowledge/CSS",
-    "html_css_knowledge/CSS.md",
-    "html_css_knowledge/Coisas base CSS.md",
-    "html_css_knowledge/Coisas base HTML.md",
-    "html_css_knowledge/HTML.md",
-    "html_css_knowledge/Funções CSS.md",
-    "html_css_knowledge/Tags do HTML.md",
-    "html_css_knowledge/Funções JS.md",
-    "README.md",
     "Untitled.base"
   ]
 }

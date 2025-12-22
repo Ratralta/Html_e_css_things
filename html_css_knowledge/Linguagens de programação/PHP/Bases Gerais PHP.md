@@ -125,6 +125,69 @@
 
 ## Class e objetos : 
 
+### Class : 
+#### Criando class : 
+* Para criar uma class não é difícil, apenas siga esta sintaxe :
+	```PHP
+	class pessoas
+	{
+		function falar()
+		{
+		echo "Oi gente eu sou legal!";
+		}
+	}
+	
+	$objeto = new pessoas();
+	$objeto->falar();	
+	``` 
+* Para adicionar um **constructor** a class, use o método especial (\_\_construct) seguindo a seguinte sintaxe : 
+	```PHP
+	class pessoas
+	{
+	public $nome; 
+	public $idade;
+		public function __construct(string $_nome,int $_idade)
+		{
+		$this->nome = $_nome;
+		$this->idade = $_idade;
+		}
+	}
+	$objeto = new pessoas("ronaldo",19);
+	echo "Meu nome é $objeto->nome";
+	``` 
+#### Detalhes : 
+* Sobre variáveis do próprio class, para usa-las você precisa usar o **"$this"** mais o nome da variável. 
+* O "\$this" funciona como um objeto da própria class. 
+* EX: 
+	```PHP
+	class pessoas
+	{
+	public $nome = "Ronaldo";
+	
+		function falar_nome()
+		{
+		echo "Ola, meu nome é $this->nome"; // usando o "$this" para pegar a variável do propria class "$nome" 
+		}
+	}
+	$objeto = new pessoas();
+	$objeto->falar_nome();
+	```
+### Objeto : 
+#### Detalhes : 
+* Para chamar as informações de um objeto, você usará a seta **"->"** ao invés do ponto "." e caso você esteja chamando uma variável, **escreva ela sem** o cifrão **"$"**.
+	```PHP
+	class pessoas
+	{
+	public $nome = "Ronaldo";
+		function falar()
+		{
+		echo "Oi gente!!!";
+		}
+	}
+	$objeto = new pessoas();
+	$objeto->falar(); // chamando a função "falar()" do objeto "$objeto"
+	echo "Meu nome é $objeto->nome"; // chamando a variável "$nome" do objeto "$objeto"
+	```
 # Mexendo com bancos de dados : 
 ## [[MySQL]] : 
 

@@ -32,26 +32,28 @@
 		```shell
 		.open banco_de_dados.db
 		```
-
+* ==DETALHE :=== 
+	* Todos os comandos SQL usados no próprio SQLite, **precisam** terminar com ponto e virgula (;).  
 # Integrando a alguma linguagem : 
 ## PHP : 
 ### [-- LINK --](https://www.youtube.com/watch?v=FvHrHM9K1X4)
+### Conexão com o DB : 
 * Antes, instale o sqlite3 para o php, através do comando :
 	```CMD
 	sudo apt-get install php5-sqlite3
 	```
-* Agora, no arquivo [php.ini](php_ini_php_file), habilite os seguintes drivers (Para habilitar esses drivers é só tirar o comentário do começo ";") : 
+* Agora, no arquivo [php.ini](php_ini_php_file.md), habilite os seguintes drivers (Para habilitar esses drivers é só tirar o comentário do começo ";") : 
 	* extension=sqlite3
 	* extension=pdo_sqlite
 	* extension_dir = "ext"
 	* extension_dir = "./"
-
-* Agora para testar se está funcionando, copie e cole o seguinte código :
-	```PHP 
+* Com tudo isso é pra ser possível se conectar com um banco de dados, **para se conectar com um banco de dados**, use o constructor especial "SQLite3", que retorna um [banco de dados como objeto]( SQLite_data_base_object)(DBO). Esse constructor pede como parâmetro o local do arquivo do "db", caso o arquivo não exista será criado um.  EX :
+	```PHP
 	$db = new SQLite3('banco.db');
-	$db->exec('CREATE TABLE foo (bar TEXT)');
-	$db->exec("INSERT INTO foo (bar) VALUES ('This is a test')");
-	$result = $db->query('SELECT bar FROM foo');
-	var_dump($result->fetchArray());
-	```
-
+	// variável "$db" é um objeto do seu banco 
+	// "SQLite3('banco.db')" é o constructor especial que pedi como paramâmetro o local do arquivo do banco de dados, caso o arquivo não exista, será criado um. 
+	``` 
+* Agora o objeto "$db" carrega as informações do banco, sendo possível graças a ele fazer manipulações/acessa-lo pelo PHP.
+### Manipulação do DB pelo PHP : 
+* Com o [DBO](SQLite_data_base_object), você pode usar uma função dele chamada "exec".
+* O exec permite rodar comandos **SQL** através do PHP.  

@@ -59,6 +59,11 @@ USE pizzaria;
 DROP TABLE sabores;
 ```
 
+## Visualizar : 
+* Para ver uma teble, siga a seguinte sintaxe :
+```SQL 
+  SELECT * FROM tabela;  
+  ```
 ## Alterar : 
 * A base geral de alterar alguma coisa da tabela segue a mesma logica, sendo essa :
 	* ==ALTER TABLE nome ALTERAÇÃO==

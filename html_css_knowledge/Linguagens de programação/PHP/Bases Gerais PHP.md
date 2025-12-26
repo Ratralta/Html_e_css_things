@@ -10,6 +10,7 @@
 * Seu arquivo precisa ser da extensão "php", não funciona caso seja "html".  
 * TODAS as variáveis do php começam com "$"
 * A seta "->", serve para acessar variáveis de um objeto E chamar funções dentro de um objeto
+* Para incluir um arquivo PHP, use a função "include_once(arquivo.php)".
 
 
 
@@ -188,8 +189,22 @@
 	$objeto->falar(); // chamando a função "falar()" do objeto "$objeto"
 	echo "Meu nome é $objeto->nome"; // chamando a variável "$nome" do objeto "$objeto"
 	```
+
+## Pegando valores de um FORM :
+* Para pegar os valores de um form get/post, basta fazer uso da array "$\_GET\/POST\['nome']". 
+* EX : 
+	```PHP
+	$nome = $_GET['form_nome']; // 'form_nome' é um input de um formulário 
+	echo "$nome";
+	``` 
+
+
+
 # Mexendo com bancos de dados : 
-## [[MySQL]] : 
+# Outros : 
+## [-- MySQL --](MySQL)
+## [-- Json --](php_json)
+
 
 
 

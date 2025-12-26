@@ -1,7 +1,7 @@
 # COMO :
 * As colunas normalmente não possuem uma maneira de ser especificada.
 * Então para conseguir mexer em colunas especificas, necessário criar uma "id"
-
+* ==ESTA SINTAXE SÓ FUNCIONA PRO [[MySQL]]==
 # Criando "id" :
 * Para criar uma id, faça isso caso a tabela ainda não tiver sido criada :
 ```SQL

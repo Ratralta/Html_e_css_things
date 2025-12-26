@@ -1,5 +1,5 @@
 # O que é : 
-* SQL é a **linguagem** que o MySQL utiliza.
+* [[SQL]] é a **linguagem** que o MySQL utiliza.
 
 # Coisas Base : 
 ## Sintaxe : 

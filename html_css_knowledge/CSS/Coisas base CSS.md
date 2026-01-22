@@ -59,8 +59,68 @@ EX :
 
 * A propriedade "margin-algumacoisa", mexe o item em **alguma direção em pixels** (ou outras medidas)  
 
-# Animation : 
-## TAG\:hover : 
-* Quando você citar um objeto do html, e colocar ":hover", as alterações do css SOMENTE serão aplicadas quando o usuário passa o mouse passa por cima do objeto html.  
+# Animações : 
+## Atributo "animation" : 
+### Como funciona : 
+* O atributo "animation" serve para usar um **"keyframe"** e aplicar alguns modificadores para mudar o jeito que a animação ocorrerá. 
+* O **keyframe** é o que a animação irá fazer.
+	* Exemplo de criação de um keyframe : 
+		```CSS
+		@keyframe animacao { /* nome do keyframe*/
+			from { /* a animação irá começar com isso : */
+			opacity : 1;
+			}
+			to { /* irá terminar com isso */
+			opacity : 0;
+			}
+		}
+		```
+* "animation" precisa de no minimo 2 parâmetros :
+	* nome do "keyframe". 
+	* tempo que irá durar. 
+
+### Exemplo pratico : 
+```CSS
+@keyframe texto_sumir { /* nome do keyframe */
+	from {
+	opacity : 1;
+	}
+	to {
+	opacity : 0;
+	visibility: hidden; /* torna a tag inutilizável */
+	}
+	
+	p { /* mexendo na tag "<p>" */
+	animation : texto_sumir 1s linear forwards;
+	/* "linear" --> mexe na fluidex da animação  */
+	/* "forwards" --> faz com que a animação não seja um loop */ 
+	animation-delay : 1s;
+	/* "animation-delay" --> Tempo que a animação irá começar */ 
+	}
+}
+```
+### Modificadores para "animation" : 
+* Fazer com que a animação NÃO seja um loop : 
+	* ==forwards== 
+
+### Atributos relacionados a "animation" :
+* Fazer a animação começar a partir de algum tempo : 
+	* ==animation-delay : 1s== 
+
+
+## Condições de ativação de CSS: 
+### Mouse : 
+* Passando o mouse na tag e ativando CSS : 
+	* ==:hover== :  Quando você citar um objeto do html, e colocar ":hover", as alterações do css SOMENTE serão aplicadas quando o usuário passa o mouse passa por cima do objeto html.  
+	* EX :
+		```css
+		#cancel:hover{
+		transition: 0.3s; /*tempo para aplicar as alterações  */
+		background-color: #3a3b3d;
+		cursor :pointer; /*mudando ponteiro do mouse para "pointer" */
+		}
+		```
+
+
 
 

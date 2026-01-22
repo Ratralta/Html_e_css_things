@@ -10,7 +10,7 @@
 
 * Com o atributo "onClick ="funcao()" ", você chama uma função existente do [javascript](JavaScript.md).
 
-
+* Através do atributo "style", você pode adicionar [[CSS]] a uma tag diretamente pelo HTML
 
 # Form 
 ## O que um form :

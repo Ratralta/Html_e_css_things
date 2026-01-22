@@ -65,11 +65,7 @@ console.log("Letra 455"); // RETORNA --> NaN
 	let nome_array = nome.split(" ") // critério de separação é o espaço (" ")
 	console.log(nome_array) // printou a array "nome_array"
 	```
-## window : 
-### window.location : 
-* **window.location.assign("arquivo.html"**) --> Direciona o usuário para outro arquivo.
-
-* **window.location.replace("arquivo.html")** --> Direciona o usuário para outro arquivo, sem permitir que ele volte para o arquivo em que estava antes. 
+## [-- window --](Objetos_JS)  
 
 # Funções de Bibliotecas  : 
 ## Data, hora e mês : 
@@ -83,14 +79,6 @@ document.write(tempo) // isso vai amostrar todas as informações sobre o tempo.
 ------ FUNÇÕES :
 
 
-
-## Interagir com o usuário : 
-### window...
->  ***window.prompt***("") -->  Gera um popup na tela do usuário, que retorna o que o usuário escreveu como **string**. 
->  EX:
-```js
-const variavel = window.prompt("qual seu nome?") 
-```
 
 ## Math :
 ------  Possui funções relacionadas a números.
